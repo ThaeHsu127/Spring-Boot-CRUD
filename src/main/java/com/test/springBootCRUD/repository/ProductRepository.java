@@ -1,6 +1,6 @@
-package com.test.springbootcrud.repository;
+package com.test.springBootCRUD.repository;
 
-import com.test.springbootcrud.model.Product;
+import com.test.springBootCRUD.model.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ProductRepository  extends JpaRepository<Product,Integer> {

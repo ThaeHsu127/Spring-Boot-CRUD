@@ -1,7 +1,7 @@
-package com.test.springbootcrud.controller;
+package com.test.springBootCRUD.controller;
 
-import com.test.springbootcrud.model.Product;
-import com.test.springbootcrud.service.ProductService;
+import com.test.springBootCRUD.model.Product;
+import com.test.springBootCRUD.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.*;

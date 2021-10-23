@@ -1,4 +1,4 @@
-package com.test.springbootcrud.exception;
+package com.test.springBootCRUD.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

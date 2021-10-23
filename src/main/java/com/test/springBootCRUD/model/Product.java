@@ -1,4 +1,4 @@
-package com.test.springbootcrud.model;
+package com.test.springBootCRUD.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

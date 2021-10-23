@@ -1,4 +1,4 @@
-package com.test.springbootcrud.config;
+package com.test.springBootCRUD.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
