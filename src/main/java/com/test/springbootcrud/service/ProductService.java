@@ -54,11 +54,6 @@ public class ProductService {
 
     }
 
-//    public Product getProductByPrice(double price) {
-//        return productRepository.findByPrice(price);
-//    }
-
-
 //    public String deleteProduct(int id) {
 //        productRepository.deleteById(id);
 //        return "Product Remove "+ id;
