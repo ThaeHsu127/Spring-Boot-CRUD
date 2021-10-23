@@ -45,6 +45,13 @@ public class ProductController {
         return productService.getProductByName(name);
 
     }
+//    @GetMapping("/productByPrice/{price}")
+//    public Product findProductByPrice(@PathVariable double price){
+//        System.out.print("Price--->"+price);
+//        return productService.getProductByPrice(price);
+//
+//    }
+
     @PutMapping("{id}")
     public Product updateProduct(@PathVariable ("id") int id,@RequestBody Product product){
         return productService.updateProduct(id,product);
