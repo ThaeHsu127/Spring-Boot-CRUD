@@ -5,7 +5,6 @@ import com.test.springBootCRUD.model.Product;
 import com.test.springBootCRUD.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 
 @Service
@@ -15,7 +14,6 @@ public class ProductService {
 
     public Product saveProduct(Product product) {
         return productRepository.save(product);
-
     }
 
     public List<Product> saveProductList(List<Product> products) {
@@ -37,7 +35,6 @@ public class ProductService {
 
     public Product updateProduct(int id, Product product) {
         Product existProduct = productRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Product not exist with id:" + id));
-
         existProduct.setName(product.getName());
         existProduct.setQuantity(product.getQuantity());
         existProduct.setPrice(product.getPrice());
